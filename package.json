@@ -9,7 +9,9 @@
     "token": "npx hardhat --network rinkeby run scripts/sol_token.ts",
     "transfer": "npx hardhat --network rinkeby run scripts/sol_transfer.ts",
     "approve": "npx hardhat --network rinkeby run scripts/sol_approve.ts",
-    "transfer_from": "npx hardhat --network rinkeby run scripts/sol_transfer_from.ts"
+    "transfer_from": "npx hardhat --network rinkeby run scripts/sol_transfer_from.ts",
+    "burn" : "npx hardhat --network rinkeby run scripts/sol_burn.ts",
+    "pause" : "npx hardhat --network rinkeby run scripts/sol_pause.ts"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.6.4",
