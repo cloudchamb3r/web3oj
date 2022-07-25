@@ -22,7 +22,8 @@
     "permit": "npx hardhat --network rinkeby run scripts/sol_permit.ts",
     "nft_mint": "npx hardhat --network rinkeby run scripts/sol_nft_mint.ts",
     "nft_mint2": "npx hardhat --network rinkeby run scripts/sol_nft_mint2.ts",
-    "abi": "npx hardhat --network rinkeby run scripts/sol_abi.ts"
+    "abi": "npx hardhat --network rinkeby run scripts/sol_abi.ts",
+    "find_private": "npx hardhat --network rinkeby run scripts/sol_find_private.ts"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.6.4",
