@@ -25,8 +25,9 @@
     "abi": "npx hardhat --network rinkeby run scripts/sol_abi.ts",
     "find_private": "npx hardhat --network rinkeby run scripts/sol_find_private.ts",
     "abi2": "npx hardhat --network rinkeby run scripts/sol_abi2.ts",
-    "receive" : " npx hardhat --network rinkeby run scripts/sol_receive.ts",
-    "unlock" : "npx hardhat --network rinkeby run scripts/sol_unlock.ts"
+    "receive": " npx hardhat --network rinkeby run scripts/sol_receive.ts",
+    "unlock": "npx hardhat --network rinkeby run scripts/sol_unlock.ts",
+    "cmp": "npx hardhat --network rinkeby run scripts/sol_cmp.ts"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.6.4",
