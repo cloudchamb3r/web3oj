@@ -7,4 +7,3 @@ and each directory has unique role in this project
 - conrtacts: where the source files for your contracts should be
 - test: where your tests should go
 - scripts: where simple automation scripts go
-# gsheet
