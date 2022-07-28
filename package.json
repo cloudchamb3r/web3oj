@@ -30,7 +30,8 @@
     "cmp": "npx hardhat --network rinkeby run scripts/sol_cmp.ts",
     "error_handle": "npx hardhat --network rinkeby run scripts/sol_error_handle.ts",
     "error_handle2": "npx hardhat --network rinkeby run scripts/sol_error_handle2.ts",
-    "error_handle3": "npx hardhat --network rinkeby run scripts/sol_error_handle3.ts"
+    "error_handle3": "npx hardhat --network rinkeby run scripts/sol_error_handle3.ts",
+    "array_sum" : "npx hardhat --network rinkeby run scripts/sol_array_sum.ts"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.6.4",
