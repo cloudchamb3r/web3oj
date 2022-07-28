@@ -6,7 +6,9 @@ import "@nomicfoundation/hardhat-toolbox";
 dotenv();
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.9",
+  solidity: {
+    compilers: [{ version: "0.8.9" }],
+  },
   networks: {
     rinkeby: {
       url: process.env.RINKEBY_URL,
